@@ -15,4 +15,4 @@ fio --name=randwrite --ioengine=libaio --iodepth=30 --rw=randwrite --bs=4k --dir
 
 fio --name=randread --ioengine=libaio --iodepth=30 --rw=randread --bs=4k --direct=1 --size=16G --numjobs=16 --runtime=604800 --group_reporting
 
-
+exit 0
